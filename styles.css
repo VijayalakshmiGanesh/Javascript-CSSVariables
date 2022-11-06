@@ -1,0 +1,51 @@
+* {
+    margin: 10px;
+}
+
+
+:root {
+    --base: 0rem;
+    --blur: 0rem;
+    --color: #dc2e2e;
+}
+
+body {
+    font-size: larger;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-shadow: -21px 7px 3px var(--color);
+
+}
+
+div {
+    border: 3px solid black;
+    height: fit-content;
+    text-align: center;
+
+    background: rgb(180, 127, 255);
+    background: -moz-linear-gradient(45deg, rgba(180, 127, 255, 0.32) 0%, rgba(170, 255, 123, 0.25) 56%, rgba(124, 225, 251, 0.25) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(180, 127, 255, 0.32) 0%, rgba(170, 255, 123, 0.25) 56%, rgba(124, 225, 251, 0.25) 100%);
+    background: linear-gradient(45deg, rgba(180, 127, 255, 0.32) 0%, rgba(170, 255, 123, 0.25) 56%, rgba(124, 225, 251, 0.25) 100%);
+
+}
+
+img {
+    background-color: var(--color);
+    filter: blur(var(--blur));
+    padding: var(--base);
+    height: 20rem;
+    width: 20rem;
+}
+
+input {
+    outline: 0;
+    border: 0;
+    border-radius: 10rem;
+    width: 15rem;
+    max-width: 100%;
+    margin: 24px 0 16px;
+}
