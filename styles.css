@@ -36,7 +36,7 @@ div {
 img {
     background-color: var(--color);
     filter: blur(var(--blur));
-    padding: var(--base);
+    margin: var(--base);
     height: 20rem;
     width: 20rem;
 }
@@ -48,4 +48,10 @@ input {
     width: 15rem;
     max-width: 100%;
     margin: 24px 0 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    div {
+        width: max-content;
+    }
 }
